@@ -1,0 +1,9 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #c9d3d8; font-family: "Microsoft YaHei", "PingFang SC", sans-serif; color: #2a2016; }
+#loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 50% 40%, #7a1c14, #3a0d09); z-index: 20; transition: opacity .6s; }
+#loading .box { text-align: center; color: #f3d9a0; }
+#loading .title { font-size: 56px; letter-spacing: 18px; font-weight: 700; }
+#loading .sub { font-size: 13px; letter-spacing: 6px; opacity: .7; margin-bottom: 28px; }
+#loading .bar { width: 320px; height: 4px; background: rgba(255,255,255,.15); border-radius: 2px; overflow: hidden; margin: 0 auto 10px; }
+#loading .bar i { display: block; height: 100%; width: 0; background: #e8b84a; transition: width .2s; }
+#stage { font-size: 13px; opacity: .8; }
+.label { padding: 2px 8px; background: rgba(122, 28, 20, .82); color: #f6e3b4; font-size: 12px; border-radius: 3px; white-space: nowrap; border: 1px solid rgba(232, 184, 74, .6); pointer-events: auto; cursor: pointer; }

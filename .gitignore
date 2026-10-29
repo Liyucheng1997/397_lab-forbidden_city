@@ -1,0 +1,11 @@
+node_modules/
+dist/
+shots/
+*.log
+
+# 本地工作笔记与临时文件
+task_plan.md
+progress.md
+findings.md
+*.tmp.mp3
+.claude/settings.local.json

@@ -1,0 +1,22 @@
+{
+  "name": "forbidden-city-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "紫禁城三维模型 - Three.js procedural reconstruction of the Forbidden City",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "site": "node scripts/build-site.mjs",
+    "shot": "node scripts/shot.mjs",
+    "verify:ui": "node scripts/verify-ui.mjs"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "puppeteer-core": "^23.0.0"
+  }
+}
