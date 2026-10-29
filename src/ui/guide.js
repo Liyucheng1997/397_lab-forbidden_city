@@ -36,7 +36,7 @@ export function displayName(name, pos) {
 export function audioUrl(name) {
   const e = entryFor(name);
   const a = e && AUDIO[e.name];
-  return a ? `/audio/guide/${a.file}` : null;
+  return a ? `${import.meta.env.BASE_URL}audio/guide/${a.file}` : null;
 }
 
 const STYLE = `
